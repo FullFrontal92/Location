@@ -9,8 +9,10 @@ import android.os.Bundle;
  */
 
 public class MyLocationListener implements LocationListener {
+    public static Location location;
     @Override
     public void onLocationChanged(Location location) {
+        this.location=location;
 
     }
 
